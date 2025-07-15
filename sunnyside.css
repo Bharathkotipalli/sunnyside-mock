@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.img-container{
+    background-image: url(./sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+    background-size: cover;
+    color: white;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+       
+}
+.mb-img{
+    background-image: url(./sunnyside-agency-landing-page-main/images/mobile/image-header.jpg);
+    background-size: cover;
+    color: white;
+    position: relative;
+    height: 60vh;
+    width: 1oo%px;
+    background-repeat: no-repeat; 
+    display: none;  
+}
+
+.active{
+    background-color: white;
+    color: black;
+    border: 1px solid white ;
+    border-radius: 15px;
+    padding: 6px;
+}
+.logo-container{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  
+   
+}
+.head{
+    font-family: sans-serif;
+    font-size: 300;
+    margin-left: 15px;
+    margin-top: 20px;
+    /* display: inline;
+    justify-content: space-between; */
+    
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    margin: 0px 10px;
+    margin-top: 20px;
+ 
+  
+}
+.list li{
+    list-style: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burger img{
+  margin-right: 10px;
+  
+}
+.burger{
+    display: none;
+}
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.transform{
+    height: 450px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+}
+.transform  p{
+    font-size: 20px;
+    margin-top: 35px;
+}
+.mb-egg{
+    background-image: url(./sunnyside-agency-landing-page-main/images/mobile/image-transform.jpg);
+    height: 300px;
+    width: 375px;
+    background-size: cover;
+  
+}
+
+.mb-transform{
+     height: 300px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+.egg{
+    background-image: url(./sunnyside-agency-landing-page-main/images/desktop/image-transform.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   height: 450px;
+    width: 50%; 
+}
+
+.standout{
+    background-image: url(./sunnyside-agency-landing-page-main/images/desktop/image-stand-out.jpg);
+    
+     height: 450px;
+    width: 50%; 
+ 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.mb-standout{
+    background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-stand-out.jpg);
+       height: 300px;
+    width: 100%; 
+    background-size: cover;
+}
+
+.audience{
+      height: 450px;
+      width: 50%; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+.audience p{
+    font-size: 20px;
+    margin-top: 35px;
+}
+.mb-audience{
+     height: 300px;
+      width: 375px;
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; 
+     
+      font-size: 16px;
+      
+}
+.mb-audience p{
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+     padding: opx 20px;
+}
+.cherry{
+    background-image: url(./sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg);
+     background-size: cover;
+      height: 450px;
+    width: 50%; 
+}
+.mb-cherry{
+    background-image: url(./sunnyside-agency-landing-page-main/images/mobile/image-graphic-design.jpg);
+     background-size: cover;
+     height: 300px;
+    width: 375px; 
+}
+.fruit{
+    background-image: url(./sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
+     background-size: cover;
+      height: 450px;
+    width: 50%; 
+}
+.mb-fruit{
+    background-image: url(./sunnyside-agency-landing-page-main/images/mobile/image-photography.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 375px; 
+}
+.mb-main{
+    display: none;
+}
+.client{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+    padding: 0px 20px;
+
+}
+.client img{
+    /* transform: translateX(100px); */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+   
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.client h2{
+  margin-top: 35px;
+  text-align: center;
+}
+.mb-heading{
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
+.mb-client img{
+    /* transform: translateX(100px); */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+      
+}
+.mb-client h2{
+    margin-top: 35px;
+  text-align: center;
+}
+.mb-client{
+    display: none;
+}
+
+.sugar img{
+  height: 350px;
+  width: 378px;
+}
+.sugar{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mb-sugar img{
+    
+  height: 300px;
+  width: 50%;
+  
+}
+.mb-sugar{
+   display: none;
+}
+.mb-flex{
+    display: flex;
+
+}
+.mb-flex2{
+   display: flex;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    background-color:rgb(155, 239, 229);
+}
+.mb-footer{
+    display: none;
+}
+.header{
+    margin-bottom: 35px;
+}
+.header h2{
+  font-size: 35px;
+  font-size: 900;
+  font-family: sans-serif;
+  color: rgb(50, 95, 74);
+  
+}
+.hero{
+     margin-bottom: 90px;
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+}
+.hero a{
+    text-decoration: none;
+    margin: 0px 40px;
+    color:  rgb(50, 95, 74);
+    font-size: 25px;
+   
+}
+.mb-hero {
+    display: none;
+}
+
+.mb-hero a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color:  rgb(50, 95, 74);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.icons{
+    display: inline;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.icons img{
+    margin: 0px 15px;
+    height: 30px;
+}
+.mb-icons{
+    display: none;
+}
+/* .mb-header{
+    display: none;
+} */
+
+@media   (max-width :375px) {
+    nav ul{
+        position: absolute;
+        top : 30px;
+        left : 0;
+        right: 3px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        
+       
+
+    }
+    nav ul li{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(59, 55, 55);
+        width:fit-content;
+        margin: 10px 5px;
+       }
+       .active{
+        background-color: rgb(233, 214, 14);
+        padding: 10px  35px;
+        border-radius: 20px;
+       }
+   
+    .burger{
+        display: block;
+
+    }
+    .img-container{
+        display: none;
+    }
+    .mb-img{
+        display: block;
+        height: 60vh;
+        background-size: cover ;
+        object-fit: cover;
+        width: 375px;
+    }
+    .main{
+        display: none;
+    }
+    .mb-main{
+        display: block;
+    }
+    .mb-egg{
+        display: block;
+        background-size: cover;
+        width: 375px;
+
+
+    }
+    .mb-transform  {
+        height: 300px;
+        width: 375px;
+        padding: 0px 10px;
+    }
+    .mb-transform p {
+        padding: 0px  10px;
+        margin-right:  20px;
+        margin-top: 35px;
+        text-align: center;
+    }
+    .mb-transform h1{
+        text-align: center;
+    }
+    .mb-standout{
+            display: block;
+        background-size: cover;
+        width: 375px;
+
+    }
+    .client{
+        display: none;
+    }
+    .heading{
+        display: none;
+    }
+     .mb-client{
+        display: block;
+        text-align: center;
+        margin:30px 0px;
+    }
+    .mb-heading{
+        display: block;
+        margin: 20px 0px;
+    }
+    .sugar{
+        display: none;
+    }
+    .mb-sugar{
+        display: block;
+        width: 275px;
+    }
+    .mb-sugar img{
+      
+         width: 182px;
+         
+        background-size: cover;
+    }
+    .hero{
+        display: none;
+    }
+   .mb-hero{
+    display: block;
+    margin-bottom: 40px;
+   }
+   .hero a{
+    display: none;
+   }
+    
+       
+       
+}
